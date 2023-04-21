@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- ICONES-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- JS-->
+
+    <script src="js/script.js" defer></script>
+
+    <!-- FONTES-->
+    
+
+    <title>Calcular IMC</title>
+</head>
+
+<body>
+
+    <main>
+        <div class="first-card ">
+            <h1>Iniciar aplicação</h1>
+            <button id="start">
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+            </button>
+        </div>
+        <div class="container ">
+            <button id="finish">
+                <i class="fa-sharp fa-solid fa-xmark"></i>
+            </button>
+            <header>
+                <h1>Calculadora de IMC</h1>
+            </header>
+            <form>
+                <div class="genre">
+                    <p>Feminino</p>
+                    <button id="btn-female" class="">Feminino</button>
+                    <p>Masculino</p>
+                    <button id="btn-male" class="">Masculino</button>
+                </div>
+                <div class="age">
+                    <p>Idade:</p>
+                    <input type="text" id="age" placeholder="Ex: 25">
+                </div>
+                <div class="height">
+                    <p>Altura (cm):</p>
+                    <input type="text" id="height" class="" placeholder="Ex: 172">
+                </div>
+                <div class="weight">
+                    <p>Peso (kg):</p>
+                    <input type="text" id="weight" placeholder="Ex: 65.6">
+                </div>
+                <div class="btn-style">
+                    <button id="btn-reset" type="submit">Resetar</button>
+                    <button id="btn-calc" type="submit">Calcular</button>
+                </div>
+
+                <div class="result" >
+                    <h4></h4>
+                    <p></p>
+                </div>
+
+            </form>
+        </div>
+    </main>
+
+</body>
+
+</html>
